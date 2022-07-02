@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhtrannguyen-git/nodejs_practice.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "practice",
+    "blog"
+  ],
+  "author": "minh tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhtrannguyen-git/nodejs_practice/issues"
+  },
+  "homepage": "https://github.com/minhtrannguyen-git/nodejs_practice#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
